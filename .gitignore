@@ -1,0 +1,31 @@
+# Configuration (contains local paths)
+config.py
+
+# Data files
+*.mat
+*.csv
+HCP_data/
+
+# Output directories
+out_log/
+results/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Large files
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
