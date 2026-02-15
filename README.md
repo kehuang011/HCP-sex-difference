@@ -52,7 +52,7 @@ This code expects HCP data in the following structure:
 
 3. **DO NOT** commit `config.py` (it's in `.gitignore`)
 
-## Usage
+## Usage (to be updated)
 
 ### Logistic Regression Analysis
 
@@ -84,7 +84,16 @@ python raw_logistic_ensemble_covbat.py \
 If you use this code, please cite:
 
 ```
-[Your paper citation here]
+Huang, Ke, et al. "The progression of sex differences in brain networks across the lifespan." bioRxiv (2026): 2026-01.
+
+@article{huang2026progression,
+  title={The progression of sex differences in brain networks across the lifespan},
+  author={Huang, Ke and Jamison, Keith Wakefield and Jacobs, Emily G and Miolane, Nina and Kuceyeski, Amy},
+  journal={bioRxiv},
+  pages={2026--01},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory}
+}
 ```
 
 ## Contact
