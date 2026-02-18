@@ -50,8 +50,6 @@ This code expects HCP data in the following structure:
    OUTPUT_DIR = "/path/to/your/outputs"
    ```
 
-3. **DO NOT** commit `config.py` (it's in `.gitignore`)
-
 ## Usage (to be updated)
 
 ### Logistic Regression Analysis
