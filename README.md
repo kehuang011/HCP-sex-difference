@@ -14,7 +14,8 @@ pip install -r requirements.txt
 cp config_template.py config.py
 # Edit config.py with your data paths
 
-# 3. Run analysis 
+# 3. Run analysis (see Detailed Usage Examples below)
+```
 
 ## Table of Contents
 
