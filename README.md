@@ -109,7 +109,6 @@ This code expects HCP data in the following structure:
 
 - HCP data: Available through [Human Connectome Project](https://www.humanconnectome.org/)
 - Post-processed connectome data: Contact the authors or refer to the paper
-- Results data: (sex prediction results of Krakencoder and ensemble model; these results dara can be used to create figures in *.ipynb)
 
 ## Configuration
 
