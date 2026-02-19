@@ -34,25 +34,23 @@ cp config_template.py config.py
 ## Project Structure
 
 ```
-HCP/
-    logistic_regression/
-        raw_logistic_ensemble.py
-        raw_logistic_ensemble_site.py
-        raw_logistic_ensemble_covbat_site.py
-        raw_wholecohort_logistic_ensemble.py
-        covbat_modified.py
-    
-    sensitivity_analysis_sex_site/
-        sensitivity_kraken_nwlevel.py
-        sensitivity_kraken_networkpair.py
-        Krakencoder_demo_finetuning.sh
-        [other training utilities]
-    
-    *.ipynb                    # Jupyter notebooks
-    *.py                       # Main analysis scripts
-    requirements.txt
-    config_template.py
-    README.md
+HCP-sex-difference/
+├── logistic_regression/
+│   ├── raw_logistic_ensemble.py
+│   ├── raw_logistic_ensemble_site.py
+│   ├── raw_logistic_ensemble_covbat_site.py
+│   ├── raw_wholecohort_logistic_ensemble.py
+│   └── covbat_modified.py
+├── sensitivity_analysis_sex_site/
+│   ├── sensitivity_kraken_nwlevel.py
+│   ├── sensitivity_kraken_networkpair.py
+│   ├── Krakencoder_demo_finetuning.sh
+│   └── [other Krakencoder training utilities]
+├── *.ipynb                    # Jupyter notebooks for visualization
+├── *.py                       # Main analysis scripts
+├── requirements.txt           # Python dependencies
+├── config_template.py         # Configuration template
+└── README.md                  # This file
 ```
 
 **Key Directories:**
